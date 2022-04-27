@@ -26,4 +26,18 @@
         android:nestedScrollingEnabled="true"
     />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fab"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:backgroundTint="@color/stormCloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="18dp"
+        android:text="Add new task"
+        app:icon="@drawable/ic_baseline_add_circle_outline_24"
+        app:iconTint="@color/sunsetOrange"
+    />
+
 </RelativeLayout>
