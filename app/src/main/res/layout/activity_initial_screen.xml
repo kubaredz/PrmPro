@@ -13,7 +13,7 @@
         android:textSize="40dp"
         android:textColor="@color/beige"
         android:textStyle="bold"
-        android:drawableBottom="@drawable/ic_baseline_add_circle_outline_24"
+        android:drawableBottom="@drawable/ic_baseline_add_circle_outline_96"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
