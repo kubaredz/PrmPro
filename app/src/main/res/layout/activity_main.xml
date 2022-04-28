@@ -11,8 +11,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
         android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
         android:drawableLeft="@drawable/ic_baseline_add_circle_outline_24"
         android:text="Task Manager"
         android:textColor="@color/stormCloud"
@@ -27,17 +27,19 @@
         android:nestedScrollingEnabled="true" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/fab"
+        android:id="@+id/add"
         style="@style/Widget.MaterialComponents.Button.Icon"
-        android:backgroundTint="@color/stormCloud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_margin="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        android:backgroundTint="@color/stormCloud"
         android:text="Add new task"
         app:icon="@drawable/ic_baseline_add_circle_outline_24"
-        app:iconTint="@color/sunsetOrange"
-    />
+        app:iconTint="@color/sunsetOrange" />
 
 </RelativeLayout>
